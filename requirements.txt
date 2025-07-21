@@ -2,3 +2,9 @@ streamlit
 huggingface_hub
 python-dotenv
 PyPDF2
+xhtml2pdf
+os 
+datetime
+io
+time
+
