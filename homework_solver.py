@@ -6,7 +6,7 @@ from utils import get_detailed_response
 from dotenv import load_dotenv
 
 load_dotenv()
-HF_TOKEN = os.getenv("HF_TOKEN") 
+HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN") 
 client = InferenceClient(model="meta-llama/Llama-3.1-8B-Instruct", token=HF_TOKEN)
 
 def extract_text(file):
